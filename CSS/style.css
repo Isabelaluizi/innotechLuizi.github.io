@@ -1,0 +1,31 @@
+#video {
+    display:block;
+    margin: auto;   
+}
+@media only screen and (max-width:600px) {
+    .header_link {
+        display:block;
+    }
+}
+.header_link {
+    color: black; margin-left: 15pt; font-size: 20pt;
+}
+.header_link:hover {
+    color: blue; 
+}
+.header_link:active {
+    color: red
+}
+.header_link:visited {
+    color: orange;
+}
+#footer > p {
+    font-size: 8pt; color: red;
+}
+#content p {
+    font-size: 20pt; text-align: center;
+}
+#content > p + p#Sub_text {
+    color: gray; text-align: center;
+}
+
